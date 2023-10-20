@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		BB1B94FF2AE0E9960064F75D /* SwiftUIComponentsFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = BB1B94FE2AE0E9960064F75D /* SwiftUIComponentsFramework.docc */; };
 		BB1B95002AE0E9960064F75D /* SwiftUIComponentsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1B94FD2AE0E9960064F75D /* SwiftUIComponentsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB1B95072AE0ED740064F75D /* ButtonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B95062AE0ED740064F75D /* ButtonOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB1B94FA2AE0E9960064F75D /* SwiftUIComponentsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIComponentsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1B94FD2AE0E9960064F75D /* SwiftUIComponentsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUIComponentsFramework.h; sourceTree = "<group>"; };
 		BB1B94FE2AE0E9960064F75D /* SwiftUIComponentsFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftUIComponentsFramework.docc; sourceTree = "<group>"; };
+		BB1B95062AE0ED740064F75D /* ButtonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				BB1B94FD2AE0E9960064F75D /* SwiftUIComponentsFramework.h */,
 				BB1B94FE2AE0E9960064F75D /* SwiftUIComponentsFramework.docc */,
+				BB1B95062AE0ED740064F75D /* ButtonOne.swift */,
 			);
 			path = SwiftUIComponentsFramework;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1B95072AE0ED740064F75D /* ButtonOne.swift in Sources */,
 				BB1B94FF2AE0E9960064F75D /* SwiftUIComponentsFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
